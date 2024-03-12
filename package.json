@@ -1,11 +1,19 @@
 {
-  "name": "linkit",
+  "name": "urlifyed",
   "version": "1.0.0",
   "description": "Extract links from sting and add anchor tags to it",
-  "main": "linkit.js",
+  "main": "urlifyed.js",
+  "homepage":"https://github.com/bishakhdutta/URLifyed",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Bishakh Dutta",
+  "keywords": [
+    "url",
+    "link",
+    "anchor",
+    "url extractor",
+    "extractor"
+  ],
+  "author": "Bishakh Dutta <bishakhdutta2002@gmail.com>",
   "license": "ISC"
 }

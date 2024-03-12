@@ -11,7 +11,7 @@ function extractUrls(text) {
     }
     return matches;
 }
-function addAnchorTags(text) {
+function formatWithAnchors(text) {
     let urls = extractUrls(text);
     let result = '';
     let lastIndex = 0;
@@ -23,4 +23,4 @@ function addAnchorTags(text) {
     result += text.substring(lastIndex);
     return result;
 }
-module.exports={extractUrls,addAnchorTags}
+module.exports={extractUrls,formatWithAnchors}
