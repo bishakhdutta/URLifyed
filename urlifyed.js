@@ -1,5 +1,5 @@
 function extractUrls(text) {
-    const urlPattern = /\b(?:https?:\/\/)?(?:www\.)?[\w-]+\.\w{2,}(?:\.\w{2,})?\b/gi;
+    const urlPattern = /\b(?:https?:\/\/)?(?:www\.)?[\w-]+\.\w{2,}(?:\.\w{2,})?(?:\/[\w-]+)*(?:\/)?(?:\?[^\s]*)?\b/gi;
     const matches = [];
     let match;
     while ((match = urlPattern.exec(text)) !== null) {
