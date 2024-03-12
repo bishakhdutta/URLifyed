@@ -4,6 +4,10 @@
   "description": "Extract links from sting and add anchor tags to it",
   "main": "urlifyed.js",
   "homepage":"https://github.com/bishakhdutta/URLifyed",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bishakhdutta/URLifyed.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
