@@ -1,0 +1,11 @@
+{
+  "name": "linkit",
+  "version": "1.0.0",
+  "description": "Extract links from sting and add anchor tags to it",
+  "main": "linkit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bishakh Dutta",
+  "license": "ISC"
+}
